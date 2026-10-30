@@ -43,9 +43,8 @@ The AI uses **Retrieval-Augmented Generation (RAG)** to read the bank's `Credit_
 Here is the specific profile of the account selected for the AI to analyze, showing its IFRS 9 Stage, LGD, and Expected Credit Loss (ECL).
 ![SCD Dashboard Metrics](scd_dashboard_metrics.png)
 
-### The AI Copilot Interaction
-When asked "Why is this account in Stage 3?", the AI Copilot reads the policy and accurately cites Section 2.1 (Debt Review) and Section 3.3 (LGD Penalty) to explain the bank's decision.
-![AI Copilot Chat](scd_ai_copilot_chat.png)
+![AI Copilot Chat](ai_copilot_chat.png)
+*Figure 4: The AI FDE Copilot in action. The user asks why an account is in Stage 3, and the AI accurately cites Section 2.1 (Debt Review) and Section 3.3 (LGD Penalty) of the credit policy.*
 
 ## How to Run the Project
 1. Clone the repository.
@@ -56,3 +55,6 @@ When asked "Why is this account in Stage 3?", the AI Copilot reads the policy an
 4. Run the Streamlit App:
    ```bash
    streamlit run app/ai_fde_app_ollama.py
+
+Author: Raymond Sibanda | Linkedin |
+FRM | BSc Mathematics | BCom Honours Accountancy
